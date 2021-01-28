@@ -67,6 +67,9 @@ extension ViewController: UICollectionViewDelegate,UICollectionViewDataSource, U
             print("Page -> \(page)")
             // call api
             ApiManager.shareInstance.handleApi(query: txtFiledEntry, page: page)
+            
+            
+            
         }
     }
     
